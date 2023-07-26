@@ -37,7 +37,6 @@
         <section>
             <div class="navbar bg-[#F85559] rounded-full flex-row-reverse md:flex-row-reverse lg:flex-row">
                 <div class="navbar-start py-3 ml-5">
-
                     <div class="navbar-start hidden w-auto lg:flex">
                         <ul class="menu menu-horizontal lg:px-2">
                             <li class="text-base font-medium text-white "><a>Home</a></li>
@@ -46,43 +45,133 @@
                             <li class="text-base font-medium text-white "><a>All Fruits</a></li>
                         </ul>
                       </div>
-                      <!-- previous code -->
-                      <!-- <div class="dropdown">
+                    <div class="dropdown relative inline-block left-0  md:left-32">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
-                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                        </label> -->
-
-
-                  <div class="dropdown relative inline-block left-0  md:left-32">
-                    <label tabindex="0" class="btn btn-ghost lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </label>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 none absolute top-full right-0">
-                        <li class="text-base font-medium text-white bg-[#F85559] rounded-full my-2">
-                            <div class="mr-5 ">
-                                <input type="text" class="input input-bordered input-sm w-full max-w-xs rounded-full bg-transparent text-white border-0 focus:outline-0 lg:absolute lg:left-64 lg:-top-5 px-3 py-5" />
-                                <i class="fa-solid fa-magnifying-glass lg:absolute lg:-top-2 lg:right-16"></i>
-                            </div>
-                        </li>
-                        <li class="text-base font-medium text-white bg-[#F85559] rounded-full my-2"><a>Home</a></li>
-                        <li class="text-base font-medium text-white bg-[#F85559] rounded-full my-2"><a>About Us</a></li>
-                        <li class="text-base font-medium text-white bg-[#F85559] rounded-full my-2"><a>Shop</a></li>
-                        <li class="text-base font-medium text-white bg-[#F85559] rounded-full my-2"><a>All Fruits</a></li>
-                    </ul>
-                  </div>
-                  
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </label>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 none absolute top-full right-0">
+                            <li class="text-base font-medium text-white bg-[#F85559] rounded-full my-2">
+                                <div class="mr-5 ">
+                                    <input type="text" class="input input-bordered input-sm w-full max-w-xs rounded-full bg-transparent text-white border-0 focus:outline-0 lg:absolute lg:left-64 lg:-top-5 px-3 py-5" />
+                                    <i class="fa-solid fa-magnifying-glass lg:absolute lg:-top-2 lg:right-16"></i>
+                                </div>
+                            </li>
+                            <li class="text-base font-medium text-white bg-[#F85559] rounded-full my-2"><a>Home</a></li>
+                            <li class="text-base font-medium text-white bg-[#F85559] rounded-full my-2"><a>About Us</a></li>
+                            <li class="text-base font-medium text-white bg-[#F85559] rounded-full my-2"><a>Shop</a></li>
+                            <li class="text-base font-medium text-white bg-[#F85559] rounded-full my-2"><a>All Fruits</a></li>
+                        </ul>
+                    </div>
                 </div>
-
-               
                     <a class="btn bg-transparent hover:bg-transparent border-0 normal-case items-center -mt-2 text-2xl lg:text-4xl text-white font-bold"><img src="./images/logo.png" alt="">Fruit Burst</a>
-               
                 
                 <div class="navbar-start mr-5 hidden md:hidden lg:inline relative">
                     <input type="text" placeholder="Search here" class="input input-bordered input-sm w-full max-w-xs rounded-full border-0 focus:outline-0 lg:absolute lg:left-64 lg:-top-5 px-3 py-5" />
                     <i class="fa-solid fa-magnifying-glass lg:absolute lg:-top-2 lg:right-16"></i>
                 </div>
               </div>
-        </section>
+            </section>
+            <!-- banner section -->
+            <section>
+                <div class="mt-16">
+                    <div class="carousel w-full h-[50vh] lg:h-auto">
+                        <div id="slide1" class="carousel-item relative w-full">
+                            <img class="" src="/images/banner1.png" class="w-full" />
+                            <div>
+                                <div class="card w-full bg-transparent absolute top-8 left-0 lg:top-32 lg:left-0 items-center h-fit">
+                                    <div class="card-body items-center text-center w-full md:w-5/6 lg:w-3/5">
+                                      <h2 class="card-title text-3xl lg:text-7xl text-white font-extrabold">Exotic tastes at your doorstep</h2>
+                                      <p class="text-[10px] md:text-sm lg:text-base text-white font-normal my-2 lg:my-6">We supply highly quality organic products</p>
+                                      <div class="card-actions">
+                                        <button class="btn bg-[#F85559] text-base md:text-xl font-medium capitalize border-0 hover:border-0 text-white py-2 px-5 lg:py-3 lg:px-6 h-auto rounded-lg">Shop Now</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                          <div>
+                          </div>
+                          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide4" class="btn btn-circle bg-black border-1 border-white rounded-full text-white text-xs">❮</a> 
+                            <a href="#slide2" class="btn btn-circle bg-black border-1 border-white rounded-full text-white text-xs">❯</a>
+                          </div>
+                        </div> 
+                        <div id="slide2" class="carousel-item relative w-full">
+                          <img src="./images/banner2.png" class="w-full" />
+                          <div>
+                            <div class="card w-full bg-transparent absolute top-8 left-0 lg:top-32 lg:left-0 items-center h-fit">
+                                <div class="card-body items-center text-center w-full md:w-5/6 lg:w-3/5">
+                                  <h2 class="card-title text-3xl lg:text-7xl text-white font-extrabold">Exotic tastes at your doorstep</h2>
+                                  <p class="text-[10px] md:text-sm lg:text-base text-white font-normal my-2 lg:my-6">We supply highly quality organic products</p>
+                                  <div class="card-actions">
+                                    <button class="btn bg-[#F85559] text-base md:text-xl font-medium capitalize border-0 hover:border-0 text-white py-2 px-5 lg:py-3 lg:px-6 h-auto rounded-lg">Shop Now</button>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle bg-black border-1 border-white rounded-full text-white text-xse">❮</a> 
+                            <a href="#slide3" class="btn btn-circle bg-black border-1 border-white rounded-full text-white text-xse">❯</a>
+                          </div>
+                        </div> 
+                        <div id="slide3" class="carousel-item relative w-full">
+                          <img src="/images/banner3.png" class="w-full" />
+                          <div>
+                            <div class="card w-full bg-transparent absolute top-8 left-0 lg:top-32 lg:left-0 items-center h-fit">
+                                <div class="card-body items-center text-center w-full md:w-5/6 lg:w-3/5">
+                                  <h2 class="card-title text-3xl lg:text-7xl text-white font-extrabold">Exotic tastes at your doorstep</h2>
+                                  <p class="text-[10px] md:text-sm lg:text-base text-white font-normal my-2 lg:my-6">We supply highly quality organic products</p>
+                                  <div class="card-actions">
+                                    <button class="btn bg-[#F85559] text-base md:text-xl font-medium capitalize border-0 hover:border-0 text-white py-2 px-5 lg:py-3 lg:px-6 h-auto rounded-lg">Shop Now</button>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2" class="btn btn-circle bg-black border-1 border-white rounded-full text-white text-xs">❮</a> 
+                            <a href="#slide4" class="btn btn-circle bg-black border-1 border-white rounded-full text-white text-xs">❯</a>
+                          </div>
+                        </div> 
+                        <div id="slide4" class="carousel-item relative w-full">
+                          <img src="./images/banner4.png" class="w-full" />
+                          <div>
+                            <div class="card w-full bg-transparent absolute top-8 left-0 lg:top-32 lg:left-0 items-center h-fit">
+                                <div class="card-body items-center text-center w-full md:w-5/6 lg:w-3/5">
+                                  <h2 class="card-title text-3xl lg:text-7xl text-white font-extrabold">Exotic tastes at your doorstep</h2>
+                                  <p class="text-[10px] md:text-sm lg:text-base text-white font-normal my-2 lg:my-6">We supply highly quality organic products</p>
+                                  <div class="card-actions">
+                                    <button class="btn bg-[#F85559] text-base md:text-xl font-medium capitalize border-0 hover:border-0 text-white py-2 px-5 lg:py-3 lg:px-6 h-auto rounded-lg">Shop Now</button>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide3" class="btn btn-circle bg-black border-1 border-white rounded-full text-white text-xs">❮</a> 
+                            <a href="#slide1" class="btn btn-circle bg-black border-1 border-white rounded-full text-white text-xs">❯</a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </section>
+            <!-- fruit row section -->
+            <section class=" hidden md:hidden lg:block">
+                <div class="grid grid-cols-5 justify-around bg-white shadow-xl rounded-lg w-5/6 mx-auto my-0 px-10 py-10 relative bottom-24">
+                    <div class="card">
+                        <figure><img src="./images/fruit1.png" alt="Shoes" /></figure>
+                      </div>
+                      <div class="card">
+                        <figure><img src="./images/fruit2.png" alt="Shoes" /></figure>
+                      </div>
+                      <div class="card">
+                        <figure><img src="./images/fruit3.png" alt="Shoes" /></figure>
+                      </div>
+                      <div class="card">
+                        <figure><img src="./images/fruit4.png" alt="Shoes" /></figure>
+                      </div>
+                      <div class="card">
+                        <figure><img src="./images/fruit5.png" alt="Shoes" /></figure>
+                      </div>
+                </div>
+            </section>
     </header>
     <main>
 
